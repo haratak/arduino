@@ -67,6 +67,7 @@ void loop() {
     Serial.println("耳標番号：３０００の牛です");
     digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)(5V)
     delay(3000); // 1秒待つ
+    
     digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW(0V)
   }else {
     Serial.println("登録されていない耳標です。");
